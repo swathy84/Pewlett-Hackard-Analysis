@@ -33,30 +33,33 @@ Initial analysis included identifying Primary key and Foreign key for all the cs
 • Retirement info related to the sales analysis was made based on the retirement info and sales team.
 
 [retirement_sales_info](Data/retirement_sales_info.csv)
+
 [retirement_sales_dev_info](Data/retirement_sales_dev_info.csv)
 
-![main](Queries/queries.sql)  - Query file for the initial analysis
+[queries.sql](Queries/queries)  - Query file for the initial analysis
 
-![main](schema.sql) - Schema file
+[schema.sql](schema.sql) - Schema file
 
 ### Updated Analysis 
 
 The Purpose of the analysis is to determine the number of retiring employees per title and identify employees eligible to participate in a mentorship program. 
 
-![main](Queries/Employee_Database_challenge.sql)  - Query file for the updated analysis 
+[Employee_Database_challenge.sql](Queries/Employee_Database_challenge.sql)  - Query file for the updated analysis 
 
 ## Result
 
 The first table that determines the number of retiring employees and their position titles can be viewed here
-[retiring_titles](data/retiring_titles.csv)
+
+[retiring_titles.csv](Data/retiring_titles.csv)
 
 The second table that identifies employee who are eligible for the mentorship program can be viewed below
-[mentorship_eligibility](data/mentorship_eligibility.csv)
 
-From these tables, we can determine that \n
-1. Majority of retirees are Senior Engineers, while next in line to retire includes the rest of the Senior Staff.\n 
-2. Senior Engineer and Senior Staff positions have the greatest priority when it comes to deciding which roles the company would like to fill.\n 
-3. Among those that are retiring, there are 1,549 employees that qualify for the mentorship program. \n
+[mentorship_eligibilty.csv](Data/mentorship_eligibilty.csv)
+
+From these tables, we can determine:
+1. Majority of retirees are Senior Engineers, while next in line to retire includes the rest of the Senior Staff. 
+2. Senior Engineer and Senior Staff positions have the greatest priority when it comes to deciding which roles the company would like to fill.
+3. Among those that are retiring, there are 1,549 employees that qualify for the mentorship program. 
 4. There are more people retiring than there are potential mentors, which means that the company would have to create an efficient program that can cover the difference between the number of people retiring and the number of people who can be trained to fill these positions.
 
 ## Summary 
