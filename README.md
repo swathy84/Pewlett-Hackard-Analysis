@@ -28,7 +28,7 @@ Initial analysis included identifying Primary key and Foreign key for all the cs
 
 • Department Retirees analysis was made based on an updated current_emp list that includes everything it currently has, but also the employee's departments.
 
-[dept_nfo](Data/dept_info.csv)
+[dept_info](Data/dept_info.csv)
 
 • Retirement info related to the sales analysis was made based on the retirement info and sales team.
 
@@ -36,7 +36,7 @@ Initial analysis included identifying Primary key and Foreign key for all the cs
 
 [retirement_sales_dev_info](Data/retirement_sales_dev_info.csv)
 
-[queries.sql](Queries/queries)  - Query file for the initial analysis
+[queries.sql](Queries/queries.sql)  - Query file for the initial analysis
 
 [schema.sql](schema.sql) - Schema file
 
