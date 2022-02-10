@@ -12,23 +12,25 @@ The analysis were made based on the 6 csv files - departments.csv,employees.csv,
 
 Initial analysis included identifying Primary key and Foreign key for all the csv files. Next, using the QuickDBD tool the  design structure for all the 6 tables were plotted along with primary and foreign key connection between the tables. 
 
-![main](Resources/EmployeeDB.png) - Table structure of the Employee database.
+Table structure of the Employee database.
+
+![main](Resources/EmployeeDB.png) 
 
 • The Retirement Eligibility analyisis were made by running the queries on employees table and creating a new table named retirement_info.
 
-[retirement_info](Data/retirement_info.csv)
+[retirement_info](Data)
 
 • Employee Information analysis was made based on list of employees containing their unique employee number, their last name, first name, gender, and salary.
 
-[emp_info](Data/emp_info.csv)
+[emp_info](Data)
 
 • Management analysis was maded based on list of managers for each department, including the department number, name, and the manager's employee number, last name, first name, and the starting and ending employment dates.
 
-[manager_info](Data/manager_info.csv)
+[manager_info](Data)
 
 • Department Retirees analysis was made based on an updated current_emp list that includes everything it currently has, but also the employee's departments.
 
-[dept_info](Data/dept_info.csv)
+[dept_info](Data)
 
 • Retirement info related to the sales analysis was made based on the retirement info and sales team.
 
